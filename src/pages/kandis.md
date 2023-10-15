@@ -6,9 +6,9 @@ title: Kandis for livet
 
 *Kandis for livet* is a feature doc (2021).
 
-An entertaining and life-affirming film about a group of fans who find consolation and meaning in life through their idol, Danish country and schlager singer Kandis- Johnny. Shared stories of loss, loneliness and finding love again are revealed and it becomes clear that no one can rise to life's challenges alone.
+An entertaining and life-affirming film about a group of fans who find consolation and meaning in life through their idol, Danish country and schlager singer Kandis-Johnny. Shared stories of loss, loneliness and finding love again are revealed and it becomes clear that no one can rise to life's challenges alone.
 
-- Danish critics awards, Bodil (talent award)
+- Danish Critics Awards, Bodil (talent award)
 - Robert, Danish Academy Awards, Robert (best cinematography)
 - Oslo Pix (best nordic documentary)
 

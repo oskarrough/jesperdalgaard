@@ -1,15 +1,19 @@
+---
+const pathname = new URL(Astro.request.url).pathname
+const path = pathname.slice(1); // remove the first "/"
+---
 <header>
-<nav>
-	<a href="/"><em>JESPER DALGAARD</em></a>
-	<a href="/who">Who?</a>
-</nav>
-<nav>
-	<a href="/uebermensch">Über</a>
-	<a href="/weltschmerz">Welt</a>
-	<a href="/moonie">Moonie</a>
-	<a href="/kandis">Kandis</a>
-	<a href="/divine">Divine</a>
-</nav>
+	<nav>
+		<a href="/"><em>JESPER DALGAARD</em></a>
+		<a class={path === 'who' ? 'active' : ''} href="/who">Who?</a>
+	</nav>
+	<nav>
+		<a class={path === 'uebermensch' ? 'active' : ''} href="/uebermensch">Über</a>
+		<a class={path === 'weltschmerz' ? 'active' : ''}href="/weltschmerz">Welt</a>
+		<a class={path === 'moonie' ? 'active' : ''}href="/moonie">Moonie</a>
+		<a class={path === 'kandis' ? 'active' : ''}href="/kandis">Kandis</a>
+		<a class={path === 'divine' ? 'active' : ''}href="/divine">Divine</a>
+	</nav>
 </header>
 
 <style>
@@ -25,21 +29,25 @@
 		}
 	}
 
-	@media (min-width: 800px) {
-header {
+	header {
 		display: flex;
 		flex-flow: wrap;
 		gap: 1rem;
 	}
-}
+	@media (min-width: 800px) {
+	}
 
 	nav:last-of-type {
 		margin-bottom: 2rem;
 	}
-	nav a {
+	a {
 		color: black;
 		text-decoration: none;
 	}
+	a.active {
+		color: red;
+	}
+
 	/*
 	nav a:not(:first-child, :nth-child(2)) {
 		font-family: system-ui, sans-serif;
