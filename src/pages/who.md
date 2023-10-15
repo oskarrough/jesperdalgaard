@@ -20,6 +20,7 @@ His short films screened at SXSW, Rotterdam International Film Festival, Gotebor
 
 <style>
 video {
-    margin-top: 1rem;
+	max-width: 100%;
+	margin-top: 1rem;
 }
 </style>
