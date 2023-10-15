@@ -14,12 +14,12 @@ His short films screened at SXSW, Rotterdam International Film Festival, Gotebor
 - [instagram](https://www.instagram.com/jesper_dalgaard)  
 - [vimeo](https://vimeo.com/jesperdalgaard)
 
-<video src="/jd3.mov" muted autoplay loop width="500" />
+<video src="/jd3.mov" muted autoplay playsinline loop width="500" />
 
 <!-- <div class="Figma Figma--notfullsize"><iframe src="https://lumalabs.ai/embed/a5507427-afc6-4b08-a3a5-22eef69f49e4?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="374" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe></div> -->
 
 <style>
 video {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 </style>
