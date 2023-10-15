@@ -1,6 +1,8 @@
 <nav>
-	<a href="/">Jesper Dalgaard</a>
+	<a href="/"><em>JESPER DALGAARD</em></a>
 	<a href="/who">Who?</a>
+</nav>
+<nav>
 	<a href="/uebermensch">Über</a>
 	<a href="/weltschmerz">Welt</a>
 	<a href="/moonie">Moonie</a>
@@ -11,7 +13,14 @@
 <style>
 	nav {
 		display: flex;
-		gap: 1em;
+		flex-flow: wrap;
+		gap: 0.5em 1em;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 0.5em;
+	}
+	nav:last-of-type {
+		margin-bottom: 2rem;
 	}
 	nav a {
 		color: black;
