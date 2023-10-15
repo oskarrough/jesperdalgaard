@@ -2,9 +2,7 @@
 layout: ../layouts/Layout.astro
 title: Who? is Jesper Dalgaard
 ---
-
-
-**Jesper Dalgaard** is a hybrid (1989, Denmark).
+**Jesper Dalgaard** is a hybrid feature (1989, Denmark).
 
 He graduated from the National Danish Film School in Copenhagen 2017. His next feature **DIVINE** is currently in development.
 
