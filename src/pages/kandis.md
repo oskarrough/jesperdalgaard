@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
-vimeo: https://vimeo.com/791141942?share=copy
 title: Kandis for livet
+vimeo: https://vimeo.com/791141942
 ---
 
 *Kandis for livet* is a feature doc (2021).

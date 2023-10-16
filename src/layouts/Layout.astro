@@ -6,7 +6,7 @@ interface Props {
 	title: string;
 }
 
-const { title } = Astro.props;
+const title = Astro.props.frontmatter?.title || Astro.props.title
 ---
 <!doctype html>
 <html lang="en">
@@ -15,32 +15,36 @@ const { title } = Astro.props;
 		<meta name="description" content="Jesper's website" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" href="data:;base64,iVBORw0KGgo=">
-		<title>{title}</title>
+		<title>{title} Jesper Dalgaard</title>
 		<ViewTransitions />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<Menu></Menu>
-		<slot />
+		<header>
+			<Menu></Menu>
+		</header>
+		<main>
+			<slot />
+		</main>
 	</body>
 </html>
+
 <style is:global>
 	:root {}
 	html {
 		font-family: Inconsolata, Prociono, system-ui, sans-serif;
 		font-size: 20px;
 		line-height: 1.5;
-		/* background: #f3e7e7; */
 		background: #f5f5f5;
 		max-width: 41rem;
 	}
-	a {
-		color: black;
-	}
 	body {
 		margin: 1rem;
+	}
+	a {
+		color: black;
 	}
 	h1 {
 		font-size: 3rem;
@@ -57,6 +61,17 @@ const { title } = Astro.props;
 		font-size: 18px;
 		padding-left: 1rem;
 	}
+
+	header {
+		display: flex;
+		flex-flow: wrap;
+	}
+	@media (min-width: 800px) {
+		header {
+			gap: 1rem;
+		}
+	}
+
 	.Figma {
 		position: relative;
 		height: 100vh;

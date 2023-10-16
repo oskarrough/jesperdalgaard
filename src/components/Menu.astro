@@ -2,30 +2,19 @@
 const pathname = new URL(Astro.request.url).pathname
 const path = pathname.slice(1); // remove the first "/"
 ---
-<header>
-	<nav>
-		<a href="/"><em>JESPER DALGAARD</em></a>
-		<a class={path === 'who' ? 'active' : ''} href="/who">Who?</a>
-	</nav>
-	<nav>
-		<a class={path === 'uebermensch' ? 'active' : ''} href="/uebermensch">Über</a>
-		<a class={path === 'weltschmerz' ? 'active' : ''}href="/weltschmerz">Welt</a>
-		<a class={path === 'moonie' ? 'active' : ''}href="/moonie">Moonie</a>
-		<a class={path === 'kandis' ? 'active' : ''}href="/kandis">Kandis</a>
-		<a class={path === 'divine' ? 'active' : ''}href="/divine">Divine</a>
-	</nav>
-</header>
+<nav>
+	<a href="/"><em>JESPER DALGAARD</em></a>
+	<a class={path === 'who' ? 'active' : ''} href="/who">Who?</a>
+</nav>
+<nav>
+	<a class={path === 'uebermensch' ? 'active' : ''} href="/uebermensch">Über</a>
+	<a class={path === 'weltschmerz' ? 'active' : ''}href="/weltschmerz">Welt</a>
+	<a class={path === 'moonie' ? 'active' : ''}href="/moonie">Moonie</a>
+	<a class={path === 'kandis' ? 'active' : ''}href="/kandis">Kandis</a>
+	<a class={path === 'divine' ? 'active' : ''}href="/divine">Divine</a>
+</nav>
 
 <style>
-	header {
-		display: flex;
-		flex-flow: wrap;
-	}
-	@media (min-width: 800px) {
-		header {
-			gap: 1rem;
-		}
-	}
 	nav {
 		display: flex;
 		flex-flow: wrap;

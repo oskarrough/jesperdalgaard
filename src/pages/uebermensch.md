@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
 title: übermensch
-vimeo: https://vimeo.com/235985641?share=copy
+vimeo: https://vimeo.com/235985641
 ---
 *Übermensch* is a short doc (2017).
 

@@ -1,6 +1,7 @@
 ---
-title: Weltschmerz
 layout: ../layouts/Layout.astro
+title: Weltschmerz
+vimeo: https://vimeo.com/302008538
 ---
 *Weltschmerz* is a short doc (2017).
 

@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
-vimeo: https://vimeo.com/322225340?share=copy
+title: Moonie
+vimeo: https://vimeo.com/322225340
 ---
 
 *MOONIE* is a short fiction (2018)

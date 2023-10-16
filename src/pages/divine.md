@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
+title: Divine
 ---
 *DIVINE* will be a feature fiction (TBA).
 
