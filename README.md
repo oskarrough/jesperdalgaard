@@ -4,14 +4,19 @@
 
 ## How does it work?
 
-It's using astro to build a few static pages. Cloudflare is configured to deploy it via this git repository's `main` branch.
+It's using astro to build a few static pages.
 
-- `src/layouts/Layout.astro` is the main HTML on most (all?) pages
-- `src/pages` contains either `.astro` or `.md` files. each page is exposed as a route based on its file name.
+- The menu is [`src/components/Menu.astro`](https://github.com/oskarrough/jesperdalgaard/blob/main/src/components/Menu.astro)
+- The main layout is [`src/layouts/Layout.astro`](https://github.com/oskarrough/jesperdalgaard/blob/main/src/layouts/Layout.astro)
+- The pages are inside [`src/pages`](https://github.com/oskarrough/jesperdalgaard/blob/main/src/pages)
+
+Eeach `.astro` or `.md` page is exposed as a route based on its file name.
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
 Any static assets, like images, can be placed in the `public/` directory.
+
+Every time a change is made (git commit), Oskar's Cloudflare account will deploy the website. It takes a little minute.
 
 ## Dev Commands
 
