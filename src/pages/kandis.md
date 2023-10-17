@@ -4,7 +4,7 @@ title: Kandis for livet
 vimeo: https://vimeo.com/791141942
 ---
 
-*Kandis for livet* is a feature doc (2021).
+*Kandis for livet* is a feature doc (2021). [BUY NOW SUPER DISCOUNT](https://www.grandhjemmebio.dk/film/kandis-for-livet/)
 
 An entertaining and life-affirming film about a group of fans who find consolation and meaning in life through their idol, Danish country and schlager singer Kandis-Johnny. Shared stories of loss, loneliness and finding love again are revealed and it becomes clear that no one can rise to life's challenges alone.
 
