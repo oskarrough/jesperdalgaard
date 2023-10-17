@@ -1,31 +1,19 @@
-https://www.figma.com/file/F0Wib83sBwLImGhlgdIngT/jespers-hjemmeside?type=design&node-id=0-1&mode=design&t=QoZPTLzC02kCwvxu-0
-https://lumalabs.ai/capture/A5507427-AFC6-4B08-A3A5-22EEF69F49E4?mode=sparkles
+# the website at jesperdalgaard.com 
 
-## Project Structure
+- https://jesperdalgaard.com
 
-Inside of your Astro project, you'll see the following folders and files:
+## How does it work?
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+It's using astro to build a few static pages. Cloudflare is configured to deploy it via this git repository's `main` branch.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- `src/layouts/Layout.astro` is the main HTML on most (all?) pages
+- `src/pages` contains either `.astro` or `.md` files. each page is exposed as a route based on its file name.
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## Commands
+## Dev Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -37,4 +25,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
